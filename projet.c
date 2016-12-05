@@ -6,7 +6,7 @@
 /**
 *\file
 *\brief Programme permettant de jouer une partie d'Awélé
-*\author Jolliet Corentin
+*\author Copie de Jolliet Corentin
 *\date Jeudi 1 Décembre 2016
 *\fn void init_Mat(int Mat[N][M])
 *\fn void AfficherMat(int Mat[N][M])
