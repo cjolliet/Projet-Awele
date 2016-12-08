@@ -1,0 +1,41 @@
+Rapport de projet :
+
+Sommaire :
+Introduction
+Organisation du travail
+Conception :
+	-Analyse du sujet
+	-Règles du jeu
+Développement
+Résultats :
+	-Phases de tests
+	-Résultats en général
+(Annexes)
+
+Introduction :
+Notre projet est la réalisation d'un programme permettant de jouer une partie d'Awélé, seul ou à deux.
+L'Awélé est un jeu de comptage sur un plateau de 2 lignes de 6 cases où le but est de vider ce dernier en gagnant le plus de points
+possibles. Les déplacements se font vers la droite des joueurs et chaque côté commence avec 24 points répartis sur 6 cases,
+soit 4 points par cases et 48 points au début de la partie.
+
+Conception :
+
+Règles du jeu :
+-Le joueur choisie une case de son côté et déplace tout les points qui s'y trouve d'autant de cases qu'il y a de points.
+-Si le décompte s'arrête du côté adverse et qu'il y a au moins 3 ou 2 points dans cette dernière case, le joueur récupère les points
+de la case et récupère les précédentes seulement s'il y a 2 ou 3 points dans ces cases (Ex : Si on s'arrête sur une case
+où il y a 3 points et que la précédente en contient 4, on se contente de la case où on s'arrête).
+-Lorsqu'il n'y a plus de graine du côté d'un joueur au début de son tour, ce dernier récupère tout les points qu'il reste du côté
+adverse.
+-Le jeu s'arrête lorsqu'il n'y a plus de points dans les cases ou que les deux joueurs souhaitent s'arrêter.
+-Le gagnant est le joueur qui a gagné plus de 24 points si les deux joueurs ont 24 points à la fin du jeu, il y a égalité.
+
+Résultats :
+
+Ce rend le programme en général :
+Le programme suit le déroulement standard d'une partie d'Awélé avec ses déplacements, son décompte des points
+et l'affichage du plateau de jeu sans oublier la possibilité de jouer seul ou contre l'ordinateur.
+D'autres fonctions ont été ajoutées :
+-Un menu permettant de sélectionner son mode de jeu (A deux ou contre l'ordinateur);
+-Une fonction affichant les Meilleurs scores (Ce qui y ressemble du moins);
+-Une fonction menant à un menu de sélection de tests nécessitant un mot de passe.
